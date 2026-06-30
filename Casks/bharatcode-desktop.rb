@@ -1,9 +1,9 @@
 cask "bharatcode-desktop" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.15.13,desktop-beta-2026-06-30-3"
-  sha256 arm: "a4d3594aa46c8cc492e3c4dd6a17f111e8094344aa7f77f2905109dc625481d1",
-         intel: "373905483ec579ce9c3bd32a9ccfbad536024c0a333b8732b8bf766488217242"
+  version "1.15.13,desktop-beta-2026-07-01-goal-mode-001"
+  sha256 arm: "4db67426222657157b70b945a5d49ec8769fe36e22e13e03f26d18a37e5278e0",
+         intel: "d3db5f05ad86304be66b3fad66f8ef1ffa09ecdaa7447dc88157bae6307247af"
 
   url "https://github.com/BharatCode-ai/bharatcode-desktop/releases/download/#{version.csv.second}/bharatcode-desktop-mac-#{arch}.zip",
       verified: "github.com/BharatCode-ai/bharatcode-desktop/"
