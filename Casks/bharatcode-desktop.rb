@@ -1,11 +1,11 @@
 cask "bharatcode-desktop" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.15.22,desktop-beta-1.15.22"
-  sha256 arm: "b138503f7e0a5e1a5bc6201935c469f1f442b886645c917ba9742a0ea0d58b28",
-         intel: "ae51ad87a90e08809508eb3c83992b19cd6eea0bf2d187de11f4a1946ac09b2e"
+  version "1.15.23,desktop-beta-1.15.23"
+  sha256 arm: "94e1eccd71dd9d88cf107b15f92aff28f97b8d63aef9d6f08400c40209099674",
+         intel: "98e0b94c004bbed59773ee71011c31f6c6b5d4f470ba5da34165f0316e78cc5b"
 
-  url "https://github.com/BharatCode-ai/bharatcode-desktop/releases/download/#{version.csv.second}/bharatcode-desktop-mac-#{arch}.zip",
+  url "https://github.com/BharatCode-ai/bharatcode-desktop/releases/download/#{version.csv.second}/bharatcode-desktop-next-beta-mac-#{arch}.zip",
       verified: "github.com/BharatCode-ai/bharatcode-desktop/"
   name "BharatCode Desktop"
   desc "BharatCode coding assistant desktop app"
